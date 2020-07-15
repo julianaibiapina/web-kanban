@@ -5,13 +5,23 @@ import menu from '../../assets/menu.svg'
 import profile from '../../assets/profile.png'
 
 export default function Header(){
+
+    function handleClick(e){
+        e.preventDefault();
+        console.log("abrir menu");
+    }
+
     return(
+        <>
+        
+
+
         <div className="header">
             <div className='header-content'>
 
                 <div className='menu-logo'>
                     
-                    <a href='#'>
+                    <a href='#' id='open_menu' onClick={handleClick}>
                         <img src={menu} alt='menu'/>
                     </a>
 
@@ -31,5 +41,7 @@ export default function Header(){
                 </div>
             </div>
         </div>
+
+        </>
     )
 }

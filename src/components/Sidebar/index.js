@@ -4,13 +4,26 @@ import menu from '../../assets/menu-dark.svg'
 import logo from '../../assets/logo-purple.svg'
 
 
+
+
+
 export default function Sidebar(){
+
+    
+    function handleClick(e){
+        e.preventDefault();
+        console.log("fechar menu");
+
+    }
+    
+    
+
     return(
         <div id="sidebar" className="hide">
 
             <div className='header-menu'>
                     
-                    <a href='#'>
+                    <a href='#' onClick={handleClick}>
                         <img src={menu} alt='menu'/>
                     </a>
 
@@ -18,7 +31,7 @@ export default function Sidebar(){
                         <img src={logo} alt='logotipo'/>
                         <h1>Kanban</h1>
                     </a>
-                </div>
+            </div>
 
             <div className="content-menu">
                 <div className='boards'>
