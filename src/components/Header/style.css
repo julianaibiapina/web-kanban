@@ -1,0 +1,78 @@
+.header{
+    width: 100vw;
+    min-width: 600px;
+    height: 70px;
+    
+    padding: 0;
+    background: var(--header-grad);
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header-content{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header h1{
+    
+    font-family: 'BioRhyme', serif;
+    font-size: 24px;
+    font-weight: 200;
+    margin-left: 10px;
+    color: #fff;
+}
+
+.header h2{
+    color: #fff;
+}
+
+.menu-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-logo a img{
+    position: relative;
+    display: table;
+    vertical-align: middle;
+    
+}
+
+.menu-logo .logo{
+    margin-left: 50px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 150px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile img{
+    margin-left: 10px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+

@@ -1,0 +1,49 @@
+#sidebar {
+    height: 100%;    
+    background-color: #fff;
+    color: white;
+    width: 400px;
+    position: fixed;
+    z-index: 200;
+}
+
+
+.header-menu{
+    height: 70px;
+    /* width: 65%;
+    margin: 0 auto; */
+
+    width: 100%;
+    padding: 0 70px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+
+    border-bottom: 0.7px solid #D2D2D2;
+}
+
+.header-menu a img{
+    position: relative;
+    display: table;
+    vertical-align: middle;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 150px;
+}
+
+.logo h1{
+    
+    font-family: 'BioRhyme', serif;
+    font-size: 24px;
+    font-weight: 200;
+    margin-left: 10px;
+    color: #A6A6A6;
+}

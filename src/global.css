@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme&family=Hind&display=swap');
+
+:root{
+    --backgroung-color: #EEF2F9;
+    --title-color: #825EA9;
+    --text-color: #C5B1DB;
+    --header-grad: linear-gradient(90deg, rgba(142,197,252,1) 0%, rgba(224,195,252,1) 100%);
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root{
+    height: 100vh;
+}
+
+body{
+    background-color: var(--backgroung-color);
+    -webkit-font-smoothing: antialiased !important;
+
+    font-size: 14px;
+    font-family: 'Hind', sans-serif;
+    color: var(--text-color);
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Hind', sans-serif;
+    color: var(--title-color);
+    font-weight: 200;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+ul{
+    list-style: none;
+}
